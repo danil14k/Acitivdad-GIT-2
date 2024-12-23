@@ -7,8 +7,15 @@ public class Activitat_GIT2 {
         Scanner scan_numeros = new Scanner(System.in);
         Scanner scan_letras = new Scanner(System.in);
  
-        
+        //matriz-inicial
 
+
+
+
+
+
+        //busqueda-numero
+        
       
 
     }
