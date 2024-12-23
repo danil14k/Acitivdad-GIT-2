@@ -26,7 +26,13 @@ public class Activitat_GIT2 {
             }
         }
 
-
+        for (int vueltas = 0; vueltas < array.length; vueltas++) {
+            for (int vueltas2 = 0; vueltas2 < array[vueltas].length; vueltas2++) {
+                System.out.print(array[vueltas][vueltas2]);
+                System.out.print(" , ");
+            }
+            System.out.println();
+        }
 
         //busqueda-numero
         
