@@ -36,26 +36,7 @@ public class Activitat_GIT2 {
 
         //busqueda-numero
         
-        int igual = 0;
-        System.out.println("Que numero quieres comprobar");
-        int numero = scan_numeros.nextInt();
-        for (int vueltas = 0; vueltas < array.length; vueltas++) {
-            for (int vueltas2 = 0; vueltas2 < array[vueltas].length; vueltas2++) {
-                if (numero == array[vueltas][vueltas2]){
-                    igual = 1;
-                    break;
-                } 
-                                                
-            }
-            
-        }
         
-        if (igual == 1) {
-            System.out.println("El numero coincide");
-        }
-        else{
-            System.out.println("El numero no coincide");
-        }
-
+        
     }
 }
